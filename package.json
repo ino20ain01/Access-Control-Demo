@@ -1,0 +1,21 @@
+{
+  "name": "acl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --inspect --exec babel-node index.js"
+  },
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "nodemon": "^1.18.8"
+  }
+}
